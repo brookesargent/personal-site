@@ -1,0 +1,93 @@
+@import url(https://fonts.googleapis.com/css?family=Work+Sans);
+
+@font-face {
+  font-family: 'adam.cg pro';
+  src: url('ADAM.CG PRO.otf'); 
+  }
+
+ body {
+	background: #F4F4F4;
+	width: 100%;
+	margin: 0;
+	height: auto;
+	padding-bottom: 80px;
+}
+
+.header {
+	background: #A7E2BD;
+	height: 170px;
+	width: 100%;
+	padding-top: 5px;
+}
+
+.logo-image {
+	display: block;
+	position: relative;
+	width: 5.8em;
+	border: solid 2px gray;
+	border-radius: 50%;
+	margin: 0 auto;
+	bottom: 0.8em;
+}
+
+h1 {
+	text-align: center;
+	color: 	#909090;
+	font-family: 'adam.cg pro';
+	font-size: 2.2em;
+	padding-top: 0.2em;
+	width: 6em;
+	margin: 0 auto;
+	margin-top: 5px;
+	border: solid white 2px;
+}
+
+h4 {
+	font-family: 'Work Sans';
+	text-align: center;
+}
+
+.about-text {
+	width: 80%;
+	font-family: 'Work Sans';
+	font-size: 1em;
+	margin: 0 auto;
+	padding-top: 90px;
+}
+
+a {
+	color: #9C71D0;
+}
+
+a:visited {
+	color: #777;
+}
+.footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  height: 50px;
+  padding-top: 2px;
+  background-color: #194D47;
+  font-size: 15px;
+}
+
+#social-media {
+	margin: 0.4em 0 0 0.8em;
+	display: inline-block;
+	color: #fff;
+	float: left;
+}
+
+#social-media:hover {
+	color: #A7E2BD;
+}
+
+.copyright {
+	font-family: 'Work Sans';
+	text-align: right;
+	font-size: 0.8em;
+	color: #fff;
+	margin: 1.6em 0.8em 0 0;
+	float: right;
+}
